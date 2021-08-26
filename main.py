@@ -9,7 +9,7 @@ from auth import auth_ns
 from flask_cors import CORS
 
 def create_app(config):
-    app=Flask(__name__, static_folder='../client/build',static_url_path='/')
+    app=Flask(__name__, static_folder='./client/build',static_url_path='/')
     app.config.from_object(config)
 
     CORS(app)
