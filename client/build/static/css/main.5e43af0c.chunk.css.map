@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/styles/main.css"],"names":[],"mappings":"AAAA,WACI,eACJ,CACA,SACI,aACJ,CACA,MACI,WAAW,CACX,SACJ,CACA,QACI,eACJ","file":"main.5e43af0c.chunk.css","sourcesContent":[".container{\n    margin-top: 50px;\n}\n.heading{\n    font-size: 3em;\n}\n.form{\n    margin:auto;\n    width: 80%;\n}\n.recipe{\n    margin-top:20px;\n}"]}
