@@ -3,4 +3,3 @@ from config import DevConfig,ProdConfig
 
 
 app=create_app(ProdConfig)
-app.run()
