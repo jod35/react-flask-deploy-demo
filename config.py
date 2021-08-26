@@ -16,7 +16,7 @@ class DevConfig(Config):
 
 
 class ProdConfig(Config):
-    pass
+    SQLALCHEMY_DATABASE_URI=SQLALCHEMY_DATABASE_URI = config('SQLALCHEMY_DATABASE_URI').replace("://", "ql://", 1)
 
 class TestConfig(Config):
     SQLALCHEMY_DATABASE_URI='sqlite:///test.db'
